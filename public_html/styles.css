@@ -1,0 +1,43 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3b5998;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Comic Sans MS";
+    color: beige;
+    font-size:18px;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #3b5998;
+}
+#image{
+    height: auto;
+    width: auto;
+    max-height: 70px;
+    max-width: 70px;
+    padding: 2px 4px;
+}
+.center {
+    display: block;
+    /*margin-left: auto;*/
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
