@@ -35,15 +35,15 @@ li a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    height: 90%;
+    width: 65%;
+    height: 65%;
 }
 
 a.button4{
     display:block;
     /*padding:10px 24px;*/
     /*padding-bottom: 60px;*/
-    padding: 20px;
+    padding: 22px;
     margin:0.1em 0.1em 0.1em 0.1em;
     border:0.16em solid rgba(255,255,255,0);
     border-radius:2em;
@@ -75,7 +75,7 @@ body {
 
 }
 .leftcolumn card{
-    height: 70%;
+    height: 50%;
 }
 .rightcolumn {
     float: left;
@@ -91,7 +91,7 @@ body {
 .card {
     background-color: white;
     padding: 20px;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
 
 }
 .card a{
@@ -112,5 +112,16 @@ footer{
 }
 article{
     font-family: 'Tahoma (sans-serif)', serif;
+    font-size: 20px;
     color: #3b5998;
+    padding-bottom: 1%;
+}
+.hero-image{
+    background-image: url("Images/background.png");
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
 }
