@@ -4,18 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Internet History</title>
 </head>
 <body>
-<ul>
-    <li><img src="Images/logo1.png" alt="logo" id="image"></li>
-    <li><a href="page1.html" style="font-size: 30px;">The Invention of the Internet</a></li>
-    <li style="float:right"><a class="active" href="index.html">Home Page</a></li>
-    <li style="float:right"><a href="page2.html">Internet People</a></li>
-    <li style="float:right"><a href="page2.html">Dot com Bubble</a></li>
-    <li style="float:right"><a href="page2.html">Internet Search</a></li>
-    <li style="float:right"><a href="page2.html">Browser wars</a></li>
-</ul>
+<div class="topnav" id="myTopnav">
+    <img src="Images/logo1.png" alt="logo" id="image">
+    <label style="font-size: 30px; color: beige">The Invention of the Internet</label>
+    <a href="index.html">Home Page</a>
+    <a href="page5.html">Internet People</a>
+    <a href="page4.html">Dot com Bubble</a>
+    <a href="page3.html">Internet Search</a>
+    <a href="page2.html">Browser wars</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 <div class="row">
     <div class="leftcolumn">
         <p>
@@ -111,30 +125,7 @@
     </div>
 
     <div class="rightcolumn">
-        <div class="gallery">
-            <a target="#" href="https://en.wikipedia.org/wiki/Internet_protocol_suite">
-                <img src="Images/tcp-ip.png" alt="TCP-IP Protocol" width="187" height="269">
-            </a>
-            <div class="desc">TCP-IP Protocol</div>
-        </div>
-        <div class="gallery">
-            <a target="#" href="https://en.wikipedia.org/wiki/Circuit_switching">
-                <img src="Images/Circuit_switching.png" alt="Circuit Switching" width="187" height="269">
-            </a>
-            <div class="desc">Circuit Switching & Packet Switching</div>
-        </div>
-        <div class="gallery">
-            <a target="#" href="https://en.wikipedia.org/wiki/Email">
-                <img src="Images/email.png" alt="Email & @" width="187" height="269">
-            </a>
-            <div class="desc">Email & @</div>
-        </div>
-        <div class="gallery">
-            <a target="#" href="https://en.wikipedia.org/wiki/Queueing_theory">
-                <img src="Images/queueing_theory.png" alt="Queueing Theory" width="187" height="269">
-            </a>
-            <div class="desc">Queueing Theory</div>
-        </div>
+
         <div class="gallery">
             <a target="#" href="https://en.wikipedia.org/wiki/Robert_Taylor_(computer_scientist)">
                 <img src="Images/bob_taylor.png" alt="Bob taylor" width="250" height="250">
