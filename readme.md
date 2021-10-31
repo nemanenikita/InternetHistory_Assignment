@@ -2,4 +2,5 @@
 [Internet History Assignment](http://historyassignmentnk1.eastus.azurecontainer.io)
 
 ##For Z layout refer index(Main Page)
-###For F layout click on The Invention of Internet button i.e. page1
+###F layout is for all the other pages
+### Main Page -> About -> W3C validated Images (Follow this path to find the w3c validator images)
