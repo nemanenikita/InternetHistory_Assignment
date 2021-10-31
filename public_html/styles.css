@@ -125,3 +125,27 @@ article{
     background-size: cover;
     position: absolute;
 }
+div.gallery {
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid #3b5998;
+    height:45%;
+    width: 45%;
+    padding-left:20px;
+
+}
+div.gallery:hover{
+    transform: scale(1.2);
+    background-color: #3b5998;
+
+}
+div.gallery img {
+    display: grid;
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+}
