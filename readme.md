@@ -1,5 +1,5 @@
 # Internet History Project
-[Internet History Project](http://historyofinternetproject.eastus.azurecontainer.io)
+[Internet History Project](http://historyinternetproject.eastus.azurecontainer.io)
 
 ##For Z layout refer index(Main Page)
 ###F layout is for all the other pages
