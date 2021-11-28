@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Internet History</title>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+    <img src="Images/logo1.png" alt="logo" id="image">
+    <label>Pylint</label>
+    <a href="index.html">Home Page</a>
+    <a href="page7.html">OOP Definitions</a>
+    <a href="page8.html">AAA Testing</a>
+    <a href="page9.html">OOP Principles</a>
+    <a href="page10.html">New Topics</a>
+    <a href="page6.html">Introduction to OOP</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+<div class="row">
+    <div class="leftcolumn">
+
+        <h3>pylint</h3>
+        <p>Pylint is a Python static code analysis tool which looks for programming errors, helps enforcing a coding
+            standard, sniffs for code smells and offers simple refactoring suggestions.</p>
+        <p>If you’re coding in Java the compiler will usually lend a helping hand. But if you’re coding in a dynamic
+            language like Python you’re on your own: you don’t have a compiler to catch bugs for you.The next best
+            thing is
+            a lint tool that uses heuristics to catch bugs in your code. One such tool is Pylint.</p>
+
+    </div>
+
+<div class="rightcolumn">
+    <img src="Images/pylint1.PNG" style="width: 600px; height: 300px">
+    <img src="Images/pylint2.PNG" style="width: 600px; height: 300px">
+</div>
+</div>
+<footer>
+    <a href="https://github.com/nemanenikita/InternetHistory_Assignment">Nikita Nemane</a>&#169;<a
+        href="https://validator.w3.org/check?uri=http://historyofinternetproject.eastus.azurecontainer.io/page5.html">
+    Validator</a>
+</footer>
+</body>
+</html>
