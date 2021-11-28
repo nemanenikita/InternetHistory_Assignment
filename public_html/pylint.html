@@ -16,7 +16,7 @@
     <a href="page7.html">OOP Definitions</a>
     <a href="page8.html">AAA Testing</a>
     <a href="page9.html">OOP Principles</a>
-    <a href="page10.html">New Topics</a>
+    <a href="page10.html">Separation of Concerns</a>
     <a href="page6.html">Introduction to OOP</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
@@ -35,20 +35,42 @@
 <div class="row">
     <div class="leftcolumn">
 
-        <h3>pylint</h3>
+        <h3>What is Pylint?</h3>
         <p>Pylint is a Python static code analysis tool which looks for programming errors, helps enforcing a coding
             standard, sniffs for code smells and offers simple refactoring suggestions.</p>
         <p>If you’re coding in Java the compiler will usually lend a helping hand. But if you’re coding in a dynamic
             language like Python you’re on your own: you don’t have a compiler to catch bugs for you.The next best
-            thing is
-            a lint tool that uses heuristics to catch bugs in your code. One such tool is Pylint.</p>
-
+            thing is a lint tool that uses heuristics to catch bugs in your code. One such tool is Pylint.</p>
+        <h3>Why to use PyLint?</h3>
+        <p>Pylint is a tool that checks for errors in Python code, tries to enforce a coding standard and looks for code
+            smells. It can also look for certain type errors, it can recommend suggestions about how particular blocks
+            can be refactored and can offer you details about the code's complexity.</p>
+        <p>A code linter is basically a program that inspects your code and gives feedback. A linter can tell you the
+            issues in your program and also, a way to resolve them. You can run it anytime to ensure that your code is
+            matching standard quality.</p>
+        <p>Linters look at aspects of code and detect lints:<br>
+            Logical Lint: tells about code errors, dangerous code patterns<br>
+            Statistical Lint: looks at formatting issues</p>
+        <p>There are many Python linters like Flake8, Pylint, Pylama, and many others. In this article, I will be
+            talking about Pylint because it handles both logical and statistical lint.</p>
+        <p>If you want to install Pylint from the terminal, this is a one-line command to do that.</p>
+        <h3>pip install pylint</h3>
+        <p>I have installed Pylint in my code editor, PyCharm. For that, you can go to Preferences > Plugins and search
+            for the “Pylint” plugin. Install and Download it from the window and restart the IDE.</p>
+        <p>Then you can set up the Exec path for the plugin so that Pycharm can execute Pylint every time user needs to
+            inspect the code. For that, go to Settings/Preferences, click Other Settings, and then Pylint. Enter the
+            PATH environment variable there and you are good to go.</p>
+        <p>Now, you are done! Every time you run a code now, you can use Pylint to look for refactoring, convention, and
+            other little warning signs.</p>
+        <p> At the lower left, you might see 4 symbols (red, yellow, blue, red ), these symbols tell the user about
+            “Errors”, “Warnings”, “Display Conventions”, and “Refactoring” issues in the code.</p>
+        <p>Pylint is an amazing linter that you must have in your coding arsenal. Because code quality matters!</p>
     </div>
 
-<div class="rightcolumn">
-    <img src="Images/pylint1.PNG" style="width: 600px; height: 300px">
-    <img src="Images/pylint2.PNG" style="width: 600px; height: 300px">
-</div>
+    <div class="rightcolumn">
+        <img src="Images/pylint1.PNG" alt="Pylint Image" style="width: 600px; height: 300px">
+        <img src="Images/pylint2.PNG" alt="Pylint Image" style="width: 600px; height: 300px">
+    </div>
 </div>
 <footer>
     <a href="https://github.com/nemanenikita/InternetHistory_Assignment">Nikita Nemane</a>&#169;<a
