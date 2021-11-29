@@ -95,14 +95,13 @@ a:hover{
 @media screen and (max-width: 600px) {
     img{
         display: grid;
-        width: 100%;
+        width: 80%;
         height: auto;
     }
-    #aaa{
-        display: grid;
-        width: 100%;
-        height: auto;
+    img:hover{
+        transform: scale(1.2);
     }
+
 }
 
 /* Style the counter cards */
@@ -157,9 +156,10 @@ h3{
 
 }
 img:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
-#aaa{
-    height: 400px;
-    width: 600px;
+img{
+    display: grid;
+    width: 80%;
+    height: auto;
 }
